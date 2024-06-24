@@ -1,0 +1,8 @@
+name: Echo Hello World
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches: ["develop", "feature/*", "release/**", "dummy", "dummy2"]
